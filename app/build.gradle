@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "ir.saeedgh.aksneveshteh"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 2
+        versionName "2.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/main.jar')
+
+
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.commit451:NativeStackBlur:1.0.1'
+
+    compile 'co.ronash.android:pushe-base:1.4.0'
+    compile 'com.google.android.gms:play-services-gcm:11.8.0'
+    compile 'com.google.android.gms:play-services-location:11.8.0'
+
+    compile 'com.vlonjatg.android:app-tour:1.0'
+    compile 'uk.co.chrisjenx:calligraphy:2.1.0'
+
+    compile 'com.squareup.picasso:picasso:2.5.0'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+}

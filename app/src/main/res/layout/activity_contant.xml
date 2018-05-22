@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical" >
+
+
+    <EditText
+        android:id="@+id/editTextSMS"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="#999"
+        android:textColor="#000"
+        android:hint="لطفا مشکلات برنامه، نظرات و پیشنهادات خود را برای ما ارسال کنید..."
+        android:inputType="textMultiLine"
+        android:lines="15"
+        android:background="#eee"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:layout_height="400dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/buttonemail"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:padding="5dp"
+            android:background="@drawable/button"
+            android:text="ارسال با ایمیل"
+            android:textColor="#fff"
+            android:layout_marginRight="1dp" />
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:padding="5dp"
+            android:background="@drawable/button"
+            android:text="ارسال با اس ام اس"
+            android:textColor="#fff"
+            android:layout_marginLeft="1dp" />
+    </LinearLayout>
+
+</LinearLayout>

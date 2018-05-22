@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:src="@drawable/slide5"
+            android:layout_marginBottom="60dp" />
+
+        <Button
+            android:id="@+id/twitterButton"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:text="باشه بریم ببینیم"
+            android:theme="@style/TwitterButtonStyle"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="110dp"
+            android:layout_height="66dp"
+            android:textSize="18sp"
+            android:layout_width="170dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:lineSpacingExtra="5.5dp"
+            android:maxLines="4"
+            android:text="ما اپلیکیشن های زیادی برای ویرایش تصاویر داریم که بد نیست یه نگاهی بندازید"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:textSize="14sp"
+            android:textColor="#ffffff" />
+
+    </FrameLayout>
+
+</RelativeLayout>
