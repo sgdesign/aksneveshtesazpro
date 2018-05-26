@@ -42,7 +42,7 @@ public class about_us extends Activity {
 			public void onClick(View v) {
 				Intent sharei = new Intent (Intent.ACTION_SEND);
 				sharei.setType("text/plain");
-				sharei.putExtra(Intent.EXTRA_TEXT,"اگه به عکاسی و ویرایش عکس ها علاقه داری، اپلیکیشن اندرویدی (شیک و مجلسی) رو از کافه بازار دریافت کن و یه حالی به عکس هات بده :) https://cafebazaar.ir/app/ir.saeedgh.aksneveshteh/?l=fa");
+				sharei.putExtra(Intent.EXTRA_TEXT,"اگه به عکاسی و ویرایش عکس ها علاقه داری، اپلیکیشن اندرویدی (شیک و مجلسی) رو از کافه بازار دریافت کن و یه حالی به عکس هات بده :) https://cafebazaar.ir/app/ir.pishro.aksneveshteh/?l=fa");
 				startActivity(Intent.createChooser(sharei,"معرفی برنامه به دوستان از طریق..."));
 
 			}

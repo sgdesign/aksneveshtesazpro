@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
                 try {
                     Intent intent = new Intent(Intent.ACTION_EDIT);
-                    intent.setData(Uri.parse("bazaar://details?id=ir.saeedgh.aksneveshteh"));
+                    intent.setData(Uri.parse("bazaar://details?id=ir.pishro.aksneveshteh"));
                     intent.setPackage("com.farsitel.bazaar");
                     startActivity(intent);
                     Toast.makeText(Global.context,"لطفا با امتیاز 5ستاره از ما حمایت کنید",Toast.LENGTH_LONG).show();

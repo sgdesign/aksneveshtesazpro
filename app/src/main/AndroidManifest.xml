@@ -9,10 +9,10 @@
     <uses-sdk
         tools:overrideLibrary="co.ronash.pushe" />
     <permission
-        android:name="ir.saeedgh.aksneveshteh.permission.C2D_MESSAGE"
+        android:name="ir.pishro.aksneveshteh.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
     <uses-permission
-        android:name="ir.saeedgh.aksneveshteh.permission.C2D_MESSAGE" />
+        android:name="ir.pishro.aksneveshteh.permission.C2D_MESSAGE" />
     <uses-permission
         android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
@@ -91,7 +91,7 @@
                 <action android:name="android.intent.action.PACKAGE_REPLACED" />
 
                 <data
-                    android:path="ir.saeedgh.aksneveshteh"
+                    android:path="ir.pishro.aksneveshteh"
                     android:scheme="package" />
             </intent-filter>
         </receiver>
@@ -105,12 +105,12 @@
 
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="ir.saeedgh.aksneveshteh" />
+                <category android:name="ir.pishro.aksneveshteh" />
             </intent-filter>
         </receiver>
 
-        <meta-data android:name="co.ronash.pushe.token" android:value="PUSHE_475950989451"/>
-        <meta-data android:name="co.ronash.pushe.cr" android:value="aHR0cDovLzg3MDYxODg0MTExYjQ1ZTFiYmRkZDJiNzc1ZTM1YjdjOjY0ZGE1OWYwMDhjZTQyZDg4ZjFmZGJjZGRiNmFiYTRkQGNhLnB1c2hlLmlyLzE1OTg="/>
+        <meta-data android:name="co.ronash.pushe.token" android:value="PUSHE_820457375445"/>
+        <meta-data android:name="co.ronash.pushe.cr" android:value="aHR0cDovLzE4NDQ5MmRhZWJiZDQyMDhhNWJlOWRiM2U5ZjQyM2RkOjczMGQwZjgxNjllZjRjNGFhZmMxOTI5NDk4ODgwODMzQGNhLnB1c2hlLmlyLzE2OTU3"/>
 
         <service
             android:name="com.waycreon.pip.MyPushListener"
